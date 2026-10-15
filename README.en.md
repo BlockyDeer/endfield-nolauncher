@@ -225,8 +225,7 @@ functions verbatim from Better Endfield Next's
 `native/loaders/shared/official_launcher.cpp`. The AGPL applies to
 redistribution, including over a network. See `LICENSE`.
 
-Divergences from that source are limited to three functions and are visible in
-`tools/compare_with_original.py` output:
+Divergences from that source are limited to three functions:
 
 - `ParseOptions` drops the injector and Steam options and adds `--help`
 - `ConfigureConsole` drops the Steam branch and detaches only for `--hide-console`

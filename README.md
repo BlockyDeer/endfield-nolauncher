@@ -163,7 +163,7 @@ build/EndfieldNoLauncherTests.exe
 
 AGPL-3.0。本程序是衍生作品：`src/launch.cpp` 逐字复制了 Better Endfield Next 的 `native/loaders/shared/official_launcher.cpp` 中的 20 个函数。AGPL 适用于再分发，包括通过网络提供。见 [`LICENSE`](LICENSE)。
 
-与该来源的差异限于三个函数，并可在 `tools/compare_with_original.py` 的输出中看到：
+与该来源的差异限于三个函数。
 
 - `ParseOptions` 去掉了注入器与 Steam 选项，新增 `--help`
 - `ConfigureConsole` 去掉了 Steam 分支，仅在 `--hide-console` 时分离控制台
