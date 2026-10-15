@@ -1,0 +1,20 @@
+# Build output and generated release artifacts. dist/ and the zip are rebuilt
+# by tools/package.sh and belong in GitHub Releases, not in the tree.
+build/
+cmake-build-*/
+dist/
+*.zip
+
+# Run log written beside the executable.
+EndfieldNoLauncher.log
+
+# Compiler output.
+*.exe
+*.obj
+*.o
+*.a
+*.dll
+*.pdb
+*.ilk
+.cache/
+compile_commands.json

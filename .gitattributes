@@ -1,0 +1,7 @@
+# Normalise line endings in the repository so tools/package.sh keeps its LF
+# endings regardless of the platform it is checked out on.
+* text=auto eol=lf
+
+*.exe binary
+*.zip binary
+*.png binary
